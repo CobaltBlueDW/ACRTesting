@@ -17,3 +17,4 @@ class printer {
 $p = new printer();
 $p->printThis("{'/* test*/hat}");
 
+$p::printThis("static call.");
